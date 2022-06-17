@@ -1,0 +1,234 @@
+:root {
+    --main-color: #000000;
+    --bgc: #2F303A;
+    --hero-color: #2F303A;
+    --second-color: #757575;
+    --nav-color: #212121;
+    --buttom-bgr: #F5F4FA;
+    --accent-color: #2196F3;
+    --add-blue: #188CE8;
+    --white-color: #FFFFFF;
+    --white-alfa-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    background-color: var(--white-color);
+    color: var(--main-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    }
+/*списки (убираем точки)*/
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+/*Шапка*/
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--main-color);
+}
+
+.logo-part {
+    color: var(--accent-color);
+}
+
+/*Навигация по сайту*/
+.nav-studio,.nav-portfolio, .nav-body, .mail, .tel {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--nav-color);
+} 
+
+.nav-body:hover,
+.nav-bodt:focus,
+.nav-studio:hover,
+.nav-studio:focus,
+.nav-portfolio:hover,
+.nav-portfolio:focus {
+    color: var(--accent-color);
+}
+.nav-portfolio,
+.nav-studio {
+    color: var(--accent-color);
+}
+
+
+
+
+.nav-studio {
+    color: var(--accent-color);
+}
+
+.nav-studio:hover,
+.nav-studio:focus {
+    color: var(--nav-color);
+}
+
+/*Контакты*/
+.mail, .tel {
+    color: var(--second-color);
+}
+
+
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus {
+    color: var(--accent-color);
+}
+
+/*Герой*/
+.hero {
+    background-color: var(--hero-color);
+}
+
+.hero-title {
+    font-family: inherit;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+
+.button-order {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;    
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    border: none;
+    cursor:pointer
+}
+.button-order:hover,
+.button-order:focus {
+    color: var(--main-color);
+    background-color: var(--add-blue);
+    border: none;
+}
+
+/*секции*/
+.feature-title {
+    visibility: hidden;
+}
+.list-title {
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.list-text {
+    line-height: 1.71;
+    color: var(--second-color);
+}
+
+/*Чем мы занимаемся + Наша команда*/
+.team {
+    background-color: var(--buttom-bgr);
+}
+.card {
+    background-color: var(--white-color);
+}
+.section-title {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+.staff {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+.position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--second-color);
+}
+
+/*Футер*/
+
+.footer {
+    background-color: var(--bgc);
+}
+.footer-logo {
+    color: var(--white-color);
+}
+
+.footer-adress, 
+.footer-mail,
+.footer-tel {
+    font-family: inherit;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-adress {
+    color: var(--white-color);
+
+}
+.footer-mail,
+.footer-tel {
+    color: var(--white-alfa-color);
+}
+.footer-mail:hover, .footer-mail:focus,
+.footer-tel:hover, .footer-tel:focus {
+    color: var(--white-color);
+}
+
+/*ПОРТФОЛИО*/
+.projects {
+    visibility: hidden;
+}
+.filter {
+    font-family: inherit;
+    color: var(--main-color);
+    background-color: var(--buttom-bgr);
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    cursor: pointer;
+}
+.filter:hover,
+.filter:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    border: none;
+}
+.case-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--nav-color);
+}
+.filter-name {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--second-color);
+}
+
+
