@@ -6,6 +6,7 @@
     --nav-color: #212121;
     --buttom-bgr: #F5F4FA;
     --header-line: #ECECEC;
+    --card-border: #EEEEEE;
     --accent-color: #2196F3;
     --add-blue: #188CE8;
     --white-color: #FFFFFF;
@@ -58,7 +59,6 @@ p {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid tomato;
 }
 
 /*Шапка*/
@@ -86,7 +86,7 @@ padding-bottom: 32px;
     justify-content: space-between;
 }
 .page-header {
-    border-bottom: 1px var(--header-line);
+    border-bottom: 1px solid var(--header-line);
 }
 
 .logo {
@@ -170,7 +170,6 @@ padding-bottom: 32px;
 .hero-title {
     margin-top: 0;
     margin-bottom: 0;
-    outline: 2px solid tomato;
     margin-bottom: 30px;
 
     font-family: inherit;
@@ -442,16 +441,12 @@ padding-bottom: 32px;
     max-width: 100%;
     }
 .cases>.item {
-    outline: 1px solid teal;
     flex-basis: calc(100%/3-60px);
     margin-right: 30px;
     margin-bottom: 30px;
 }
 
 
-.thumb-card {
-    margin-bottom: 20px;
-}
 
 .case-title {
     margin-bottom: 4px;
@@ -462,6 +457,14 @@ padding-bottom: 32px;
     letter-spacing: 0.06em;
     color: var(--nav-color);
 }
+
+.case-bottom {
+    padding: 20px 24px;
+    border-left: 1px solid var(--card-border);
+    border-bottom: 1px solid var(--card-border);
+    border-right: 1px solid var(--card-border);
+}
+
 .filter-name {
     font-size: 16px;
     line-height: 1.88;
