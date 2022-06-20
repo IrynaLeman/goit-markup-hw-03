@@ -5,6 +5,7 @@
     --second-color: #757575;
     --nav-color: #212121;
     --buttom-bgr: #F5F4FA;
+    --header-line: #ECECEC;
     --accent-color: #2196F3;
     --add-blue: #188CE8;
     --white-color: #FFFFFF;
@@ -83,6 +84,9 @@ padding-bottom: 32px;
 .header-container {
     display: flex;
     justify-content: space-between;
+}
+.page-header {
+    border-bottom: 1px var(--header-line);
 }
 
 .logo {
@@ -235,10 +239,6 @@ padding-bottom: 32px;
 .feature-list {
     display: flex;
 }
-.feature-list>.item
- {
-    outline: 1px solid black;
- }
  .feature-list>li:not(:last-child) {
     margin-right: 30px;
 
@@ -296,13 +296,15 @@ padding-bottom: 32px;
 }
 
 .staff-list>.card {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
     background-color: var(--white-color);
     padding-bottom: 30px;
 }
 
 .foto-staff {
     display: block;
-max-width: 100%;
+    max-width: 100%;
 
     margin-bottom: 30px;
 
@@ -330,6 +332,11 @@ max-width: 100%;
     line-height: 1.19;
     text-align: center;
     color: var(--second-color);
+}
+
+.staff-list>.card {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 /*Футер*/
